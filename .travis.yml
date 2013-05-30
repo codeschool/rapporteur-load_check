@@ -5,3 +5,8 @@ rvm:
   - jruby
 notifications:
   email: false
+  campfire:
+    # on_success: change
+    # on_failure: always
+    rooms:
+      - secure: "AVi2J9hq3ZBvNt9/eDwslgGfqyhURtcoJFlHScOgffK+9woQOeJXDQcpqxxE\nto7C1lnRn8c0VE2Z0gP5CPZUzHrLnlqUYZkyL4BuHtO29HPgrYT1SPuc80zo\nFv6o0TEzBmOUDxlrmSq8PBZbW1PkBDHWmMf3Tcs/zNjaL6QglLY="
