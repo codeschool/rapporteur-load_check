@@ -1,6 +1,6 @@
-# Rapporteur::LoadCheck
+# Rapporteur Load Check
 
-TODO: Write a gem description
+Load checking for [Rapporteur](https://github.com/codeschool/rapporteur).
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To add the check to your application, define the check in your environment or
+application configuration files or initializers, such as:
+
+```ruby
+# config/initializers/production.rb
+Rapporteur::Checker.add_check(Rapporteur::Checks::LoadCheck)
+```
 
 ## Contributing
 
