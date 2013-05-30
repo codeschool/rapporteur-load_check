@@ -13,10 +13,20 @@ module Rapporteur
 
       private_class_method :getloadavg, :strerror
 
-      def self.call(checker)
-        loadavg = current_load
-        checker.add_error(:excess_load) if loadavg > 8.0
+      DEFAULT_TOLERANCE = 8.0
+
+      def initialize(tolerance=DEFAULT_TOLERANCE)
+        @tolerance = tolerance
+      end
+
+      def call(checker)
+        loadavg = self.class.current_load
+        checker.add_error(:excess_load) if loadavg > @tolerance
         checker.add_message(:load, loadavg)
+      end
+
+      def self.call(checker)
+        new.call(checker)
       end
 
       def self.current_load
