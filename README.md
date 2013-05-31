@@ -23,14 +23,14 @@ application configuration files or initializers, such as:
 
 ```ruby
 # config/initializers/production.rb
-Rapporteur::Checker.add_check(Rapporteur::Checks::LoadCheck)
+Rapporteur.add_check(Rapporteur::Checks::LoadCheck)
 ```
 
 By default, a load value of 8 or greater triggers a failure. You can adjust
 this value by passing the threshold to LoadCheck.new, like so:
 
 ```ruby
-Rapporteur::Checker.add_check(Rapporteur::Checks::LoadCheck.new(4))
+Rapporteur.add_check(Rapporteur::Checks::LoadCheck.new(4))
 ```
 
 The above would cause the checker to fail if load goes above 4.0.

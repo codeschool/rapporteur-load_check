@@ -1,0 +1,5 @@
+en:
+  rapporteur:
+    errors:
+      load:
+        excessive: 'above allowed threshold (%{value} > %{tolerance})'

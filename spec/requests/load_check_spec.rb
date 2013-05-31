@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'A status request with a LoadCheck' do
   before do
-    Rapporteur::Checker.add_check(Rapporteur::Checks::LoadCheck)
+    Rapporteur.add_check(Rapporteur::Checks::LoadCheck)
     Rapporteur::Checks::LoadCheck.stub(:current_load).and_return(current_load)
   end
 
@@ -15,7 +15,7 @@ describe 'A status request with a LoadCheck' do
 
     it 'contains the load value in the messages' do
       json = JSON.parse(subject.body)
-      expect(json["messages"]["load"]).to eq(1.0)
+      expect(json.fetch("load")).to eq(1.0)
     end
   end
 
@@ -25,7 +25,7 @@ describe 'A status request with a LoadCheck' do
     it_behaves_like 'an erred status response'
 
     it 'contains a message regarding the excess load' do
-      expect(subject).to include_status_error_message(I18n.t('activemodel.errors.models.rapporteur/checker.attributes.base.excess_load'))
+      expect(subject).to include_status_error_message(:load, I18n.t('rapporteur.errors.load.excessive', value: current_load, tolerance: 8.0))
     end
   end
 end

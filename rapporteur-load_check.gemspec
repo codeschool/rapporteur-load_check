@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "ffi"
-  spec.add_dependency "rapporteur", "~> 1.1"
+  spec.add_dependency "rapporteur", "~> 2.0"
 
   spec.add_development_dependency "combustion", "~> 0.5"
   spec.add_development_dependency "rails", "~> 3.1"

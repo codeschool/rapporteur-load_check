@@ -2,7 +2,11 @@
 
 ## [HEAD][unreleased] / unreleased
 
-* No significant changes.
+* Add missing English locales.
+* Change the I18n key for an excessive load failure to
+  "rapporteur.errors.load.excessive".
+* Add a halt! when the load is high. Because we don't want to overburden an
+  already dying machine.
 
 ## [1.1.0][v1.1.0] / 2013-05-30
 
