@@ -1,5 +1,9 @@
 # Rapporteur Load Check
 
+[![Gem Version](https://badge.fury.io/rb/rapporteur-load_check.png)](http://badge.fury.io/rb/rapporteur-load_check)
+[![Build Status](https://travis-ci.org/codeschool/rapporteur-load_check.png?branch=master)](https://travis-ci.org/codeschool/rapporteur-load_check)
+[![Code Climate](https://codeclimate.com/github/codeschool/rapporteur-load_check.png)](https://codeclimate.com/github/codeschool/rapporteur-load_check)
+
 Load checking for [Rapporteur](https://github.com/codeschool/rapporteur).
 
 ## Installation
