@@ -4,8 +4,8 @@ rvm:
   - 1.9.3
   - jruby
 gemfile:
-  - gmefiles/rapporteur2.gemfile
-  - gmefiles/rapporteur3.gemfile
+  - gemfiles/rapporteur2.gemfile
+  - gemfiles/rapporteur3.gemfile
 notifications:
   email: false
   campfire:
