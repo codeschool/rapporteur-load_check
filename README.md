@@ -10,15 +10,21 @@ Load checking for [Rapporteur](https://github.com/codeschool/rapporteur).
 
 Add this line to your application's Gemfile:
 
-    gem 'rapporteur-load_check'
+```ruby
+gem 'rapporteur-load_check'
+```
 
 And then execute:
 
-    $ bundle
+```bash
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install rapporteur-load_check
+```bash
+$ gem install rapporteur-load_check
+```
 
 ## Usage
 
