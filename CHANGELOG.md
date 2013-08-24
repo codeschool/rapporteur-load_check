@@ -2,6 +2,10 @@
 
 ## [HEAD][unreleased] / unreleased
 
+* No significant changes.
+
+## [2.1.0][v2.1.0] / 2013-08-23
+
 * Test and allow for Rapporteur 2.x and 3.x support.
 
 ## [2.0.0][v2.0.0] / 2013-05-31
@@ -23,6 +27,7 @@
 
 * Initial public release.
 
-[unreleased]: https://github.com/codeschool/rapporteur-load_check/compare/v2.0.0...master
+[unreleased]: https://github.com/codeschool/rapporteur-load_check/compare/v2.1.0...master
+[v2.1.0]: https://github.com/codeschool/rapporteur-load_check/compare/v2.0.0...v2.1.0
 [v2.0.0]: https://github.com/codeschool/rapporteur-load_check/compare/v1.1.0...v2.0.0
 [v1.1.0]: https://github.com/codeschool/rapporteur-load_check/compare/v1.0.0...v1.1.0
