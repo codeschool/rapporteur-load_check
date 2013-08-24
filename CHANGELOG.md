@@ -2,7 +2,7 @@
 
 ## [HEAD][unreleased] / unreleased
 
-* No significant changes.
+* Test and allow for Rapporteur 2.x and 3.x support.
 
 ## [2.0.0][v2.0.0] / 2013-05-31
 
