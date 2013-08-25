@@ -2,6 +2,10 @@
 
 ## [HEAD][unreleased] / unreleased
 
+* No significant changes.
+
+## [2.1.1][v2.1.1] / 2013-08-25
+
 * Add explicit test and support for Ruby 2.0.
 * Add Ruby 1.8 support (with Rapporteur 3+ and syntax fixes).
 
@@ -28,7 +32,8 @@
 
 * Initial public release.
 
-[unreleased]: https://github.com/codeschool/rapporteur-load_check/compare/v2.1.0...master
+[unreleased]: https://github.com/codeschool/rapporteur-load_check/compare/v2.1.1...master
+[v2.1.1]: https://github.com/codeschool/rapporteur-load_check/compare/v2.1.0...v2.1.1
 [v2.1.0]: https://github.com/codeschool/rapporteur-load_check/compare/v2.0.0...v2.1.0
 [v2.0.0]: https://github.com/codeschool/rapporteur-load_check/compare/v1.1.0...v2.0.0
 [v1.1.0]: https://github.com/codeschool/rapporteur-load_check/compare/v1.0.0...v1.1.0

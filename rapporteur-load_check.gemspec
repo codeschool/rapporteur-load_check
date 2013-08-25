@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "rapporteur-load_check"
-  spec.version       = "2.1.0"
+  spec.version       = "2.1.1"
   spec.authors       = ["Envy Labs", "Code School"]
   spec.email         = [""]
   spec.description   = %q{Machine load reporting for rapporteur}
