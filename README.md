@@ -30,9 +30,10 @@ $ gem install rapporteur-load_check
 
 Supported Ruby versions:
 
-* MRI 1.8.7
-* MRI 1.9.2
+* MRI 2.0.0
 * MRI 1.9.3
+* MRI 1.9.2
+* MRI 1.8.7
 
 ## Usage
 

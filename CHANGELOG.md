@@ -2,6 +2,7 @@
 
 ## [HEAD][unreleased] / unreleased
 
+* Add explicit test and support for Ruby 2.0.
 * Add Ruby 1.8 support (with Rapporteur 3+ and syntax fixes).
 
 ## [2.1.0][v2.1.0] / 2013-08-23
