@@ -25,7 +25,7 @@ describe 'A status request with a LoadCheck' do
     it_behaves_like 'an erred status response'
 
     it 'contains a message regarding the excess load' do
-      expect(subject).to include_status_error_message(:load, I18n.t('rapporteur.errors.load.excessive', value: current_load, tolerance: 8.0))
+      expect(subject).to include_status_error_message(:load, I18n.t('rapporteur.errors.load.excessive', :value => current_load, :tolerance => 8.0))
     end
   end
 end

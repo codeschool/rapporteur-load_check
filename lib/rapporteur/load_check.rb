@@ -25,7 +25,7 @@ module Rapporteur
         loadavg = self.class.current_load
 
         if loadavg > @tolerance
-          checker.add_error(:load, :excessive, tolerance: @tolerance, value: loadavg)
+          checker.add_error(:load, :excessive, :tolerance => @tolerance, :value => loadavg)
           checker.halt!
         else
           checker.add_message(:load, loadavg)
