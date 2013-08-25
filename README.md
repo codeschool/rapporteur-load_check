@@ -26,6 +26,14 @@ Or install it yourself as:
 $ gem install rapporteur-load_check
 ```
 
+### Supported environments
+
+Supported Ruby versions:
+
+* MRI 1.8.7
+* MRI 1.9.2
+* MRI 1.9.3
+
 ## Usage
 
 To add the check to your application, define the check in your environment or
