@@ -1,8 +1,10 @@
 # Rapporteur Load Check
 
-[![Gem Version](https://badge.fury.io/rb/rapporteur-load_check.png)](http://badge.fury.io/rb/rapporteur-load_check)
-[![Build Status](https://travis-ci.org/codeschool/rapporteur-load_check.png?branch=master)](https://travis-ci.org/codeschool/rapporteur-load_check)
-[![Code Climate](https://codeclimate.com/github/codeschool/rapporteur-load_check.png)](https://codeclimate.com/github/codeschool/rapporteur-load_check)
+[![Gem Version](http://img.shields.io/gem/v/rapporteur-load_check.svg)](http://rubygems.org/gems/rapporteur-load_check)
+[![Build Status](http://img.shields.io/travis/codeschool/rapporteur-load_check.png?branch=master)](https://travis-ci.org/codeschool/rapporteur-load_check)
+[![Code Climate](http://img.shields.io/codeclimate/github/codeschool/rapporteur-load_check.svg)](https://codeclimate.com/github/codeschool/rapporteur-load_check)
+[![Dependency Status](https://gemnasium.com/codeschool/rapporteur-load_check.svg)](https://gemnasium.com/codeschool/rapporteur-load_check)
+
 
 Load checking for [Rapporteur](https://github.com/codeschool/rapporteur).
 
